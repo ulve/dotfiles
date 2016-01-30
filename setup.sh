@@ -3,6 +3,7 @@
 # git
 git config --global user.email "johansson.olov@gmail.com"
 git config --global user.name "Olov Johansson"
+git config --global credential.helper "cache --timeout 43200"
 
 # vim
 ln -sf `pwd`/vim/vimrc ~/.vimrc
