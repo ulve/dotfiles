@@ -1,0 +1,8 @@
+# git
+alias gpu='git pull origin master'
+alias gs='git status'
+alias ga='git add .'
+alias gco='git commit -v'
+alias gd='git diff'
+
+alias grep='grep --color '
