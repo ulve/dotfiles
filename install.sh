@@ -14,7 +14,10 @@ sudo apt-get install pgadmin3
 
 # phoenix
 sudo apt-get install inotify-tools
-sudo apt-get install nodejs-legacy
+## as with everything with node special hoops have to be jumped
+curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
+sudo apt-get install nodejs
+sudo ln -s /usr/bin/nodejs /usr/bin/node
 sudo apt-get install elixir
 mix local.hex
 mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
