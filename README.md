@@ -1,10 +1,10 @@
-# Olovs dotfiles
+# Olov's dotfiles
 To install just run `./setup.sh`
 
 based on [knewters dotfiles](https://github.com/knewter/dotfiles)
 
-## install
-Installs my standard packages
+## Install
+`./install` installs my standard packages.
 
 ## Setup
-My standard config
+`./setup.sh` sets upp my standard config.

@@ -1,5 +1,6 @@
 # git
 alias gpu='git pull origin master'
+alias gps='git push origin master'
 alias gs='git status'
 alias ga='git add'
 alias gco='git commit -v'
