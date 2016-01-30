@@ -1,4 +1,4 @@
-# Olovs dotfiles
+# Olov's dotfiles
 To install just run `./setup.sh`
 
 based on [knewters dotfiles](https://github.com/knewter/dotfiles)
