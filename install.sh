@@ -23,7 +23,7 @@ mix local.hex
 mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
 
 # Editors
-wget https://github.com/atom/atom/releases/latest
+https://github.com/atom/atom/releases/download/v1.7.4/atom-amd64.deb
 sudo dpkg -i atom-amd64.deb
 rm atom-amd64.deb
 sudo apt-get install vim
