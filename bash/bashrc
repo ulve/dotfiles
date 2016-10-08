@@ -1,6 +1,7 @@
 export HISTCONTROL=ignoredup
 export EDITOR=vim
 export PATH=$PATH:~/bin
+export PATH=$PATH:~/elixir/bin
 shopt -s checkwinsize
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 
