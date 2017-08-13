@@ -10,10 +10,9 @@ ln -sf `pwd`/vim/vimrc ~/.vimrc
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # bash
-pushd ~
-git clone https://github.com/nojhan/liquidprompt.git
-source liquidprompt/liquidprompt
 mkdir -p ~/.bash_files
-popd
 ln -sf `pwd`/bash/bashrc ~/.bashrc
 ln -sf `pwd`/bash/aliases ~/.bash_files/aliases
+
+
+# zsh
